@@ -1,0 +1,23 @@
+{
+  "name": "md5-addon",
+  "version": "1.0.0",
+  "description": "md5 addon by NAN",
+  "main": "index.js",
+  "scripts": {
+    "install": "node-gyp rebuild",
+    "rebuild": "node-gyp rebuild",
+    "rebuild:dev": "node-gyp rebuild --debug",
+    "clean": "node-gyp clean",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "nodejs",
+    "c++",
+    "addon"
+  ],
+  "author": "linxiaowu66",
+  "license": "ISC",
+  "dependencies": {
+    "nan": "^2.12.1"
+  }
+}
