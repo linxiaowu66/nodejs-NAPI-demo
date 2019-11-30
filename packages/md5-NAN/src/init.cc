@@ -37,4 +37,4 @@ void init (Local<Object> exports)
     Nan::SetMethod(exports, "md5", md5);
 }
 
-NODE_MODULE(memwatch, init);
+NODE_MODULE(addon, init);

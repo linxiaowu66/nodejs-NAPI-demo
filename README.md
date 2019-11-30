@@ -8,6 +8,7 @@ A demo for learning nodejs NAPI(including NAN)
 
 ```
 cd packages/md5-NAN
+yarn/npm install
 npm run install
 node test/index.js
 ```
@@ -16,6 +17,7 @@ node test/index.js
 
 ```
 cd packages/md5-NAPI
+yarn/npm install
 npm run install
 node test/index.js
 ```
