@@ -21,3 +21,7 @@ yarn/npm install
 npm run install
 node test/index.js
 ```
+
+## Todo
+
+* 敏感词过滤算法的N-API实现
